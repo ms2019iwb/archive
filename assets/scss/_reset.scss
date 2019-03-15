@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+h1, h2, h3, h4, h5, h6, div, li, input, p, span, a {
+    font-size: 1rem;
+}
+
+h1, h2, h3, h4, h5, h6, th {
+    font-weight: normal;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ios Safari reset */
+input[type="submit"], [type="button"] {
+    -webkit-appearance: none;
+}
+
+input:-webkit-autofill {
+    color: #fff !important;
+}
+
+input:focus {
+    outline: 0;
+}
